@@ -115,7 +115,7 @@ export default function TodoList({ navigation }) {
                 onValueChange={(value) => setStatusFilter(value)}
                 style={styles.picker}
               >
-                <Picker.Item label="All Todos" value="" />
+                <Picker.Item label="All Todos" value=" " />
                 <Picker.Item label="Not Started" value="not started" />
                 <Picker.Item label="In Progress" value="in progress" />
                 <Picker.Item label="Completed" value="completed" />
@@ -160,7 +160,7 @@ export default function TodoList({ navigation }) {
                   onValueChange={(value) => setSortBy(value)}
                   style={styles.picker}
                 >
-                  <Picker.Item label="Default" value="" />
+                  <Picker.Item label="Default" value=" " />
                   <Picker.Item label="Title" value="title" />
                   <Picker.Item label="Status" value="status" />
                 </Picker>

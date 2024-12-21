@@ -72,9 +72,9 @@ Follow the instructions to run the app on an emulator or physical device:
 - Press `i` to open iOS Simulator.
 - Scan the QR code with the Expo Go app on your physical device.
 
-### 5. Backend API Setup (Optional)
+### 5. Backend API Setup
 
-For the backend API, this is the link to the repo [JSON Server](https://github.com/yaqoubhassan/todo-api.git).
+For the backend API, this is the link to the repo (https://github.com/yaqoubhassan/todo-api.git).
 
 Run `ipconfig` in your terminal and find the `IPv4 Address`. Run `php artisan serve --host <address-from-IPv4> --port 8000`.
 
