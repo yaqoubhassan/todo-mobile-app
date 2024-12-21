@@ -76,6 +76,7 @@ Follow the instructions to run the app on an emulator or physical device:
 
 For the backend API, this is the link to the repo (https://github.com/yaqoubhassan/todo-api.git).
 
+First make sure both the mobile app and the backend API are running on the same network.
 Run `ipconfig` in your terminal and find the `IPv4 Address`. Run `php artisan serve --host <address-from-IPv4> --port 8000`.
 
 Update the `baseURL` in `api.js` with the url you get from running `php artisan serve --host <address-from-IPv4> --port 8000` for local testing.
